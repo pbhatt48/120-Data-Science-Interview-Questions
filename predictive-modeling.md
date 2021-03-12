@@ -33,6 +33,7 @@
 - MSE: easier to compute the gradient, MAE: linear programming needed to compute the gradient
 - MAE more robust to outliers. If the consequences of large errors are great, use MSE
 - MSE corresponds to maximizing likelihood of Gaussian random variables
+- MSE VS MAE :: https://www.kaggle.com/c/home-data-for-ml-course/discussion/143364
 
 #### 5. What error metric would you use to evaluate how good a binary classifier is? What if the classes are imbalanced? What if there are more than 2 groups?
 - Accuracy: proportion of instances you predict correctly. Pros: intuitive, easy to explain, Cons: works poorly when the class labels are imbalanced and the signal from the data is weak
