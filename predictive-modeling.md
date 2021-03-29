@@ -1,7 +1,8 @@
 ## Predictive Modeling (19 questions)
 #### 1. (Given a Dataset) Analyze this dataset and give me a model that can predict this response variable.
 - Start by fitting a simple model (multivariate regression, logistic regression), do some feature engineering accordingly, and then try some complicated models. Always split the dataset into train, validation, test dataset and use cross validation to check their performance.
-- Determine if the problem is classification or regression
+- Determine if the problem is classification or regression. (That classification is the problem of predicting a discrete class label output for an example.
+That regression is the problem of predicting a continuous quantity output for an example.)
 - Favor simple models that run quickly and you can easily explain.
 - Mention cross validation as a means to evaluate the model.
 - Plot and visualize the data.
