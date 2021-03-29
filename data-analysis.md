@@ -9,6 +9,9 @@
   - [R square vs adj. R square readings I](https://medium.com/analytics-vidhya/r-squared-vs-adjusted-r-squared-a3ebc565677b)
   - [R square vs adj. R square readings II](https://www.listendata.com/2014/08/adjusted-r-squared.html)
 #### 3. What is the curse of dimensionality?
+  - As the number of attributes or the dimensions increases, the number of training samples required to generalize a model also increase phenomenally. For Feature 1(4 unique), featrue 2 (2 unique) you need 8 training samples but if you add another feature 3( 3 unique) you will need 8 * 3 = 24 training samples. 
+  - Dimensionality reduction techniques fall into one of the two categories- ‘Feature selection’ or ‘Feature extraction’.
+  - [readings](https://www.mygreatlearning.com/blog/understanding-curse-of-dimensionality/) 
   - High dimensionality makes clustering hard, because having lots of dimensions means that everything is "far away" from each other.
   - For example, to cover a fraction of the volume of the data we need to capture a very wide range for each variable as the number of variables increases
   - All samples are close to the edge of the sample. And this is a bad news because prediction is much more difficult near the edges of the training sample.
