@@ -9,4 +9,5 @@
   
 #### 4. How would you explain a confidence interval to an engineer with no statistics background? What does 95% confidence mean?
   - [link](https://www.quora.com/What-is-a-confidence-interval-in-laymans-terms)
+  - [Def of Confidence Interval](https://www.simplypsychology.org/confidence-interval.html)
 #### 5. How would you explain to a group of senior executives why data is important?
