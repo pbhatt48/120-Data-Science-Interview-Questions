@@ -44,6 +44,9 @@ The exploratory phase will generate lots of possible hypotheses, and the exploit
 #### 8. How can you determine which features are the most im- portant in your model?
   - run the features though a Gradient Boosting Machine or Random Forest to generate plots of relative importance and information gain for each feature in the ensembles.
   - Look at the variables added in forward variable selection 
+  - [Readings](https://www.quora.com/How-do-you-determine-feature-importance-in-a-predictive-model)
+    - Information gain and fraction of variability explained are amongst the most commonly used metrics. A common technique used by kagglers is to run the features though a Gradient Boosting Machine or Random Forest to generate plots of relative importance and information gain for each feature in the ensembles. These models are somewhat robust to collinearity as well so you will get a decent understanding of the relative importance of your features.
+    -  Forward Feature selection 
 #### 9. How do you deal with some of your predictors being missing?
   - Remove rows with missing values - This works well if 1) the values are missing randomly (see [Vinay Prabhu's answer](https://www.quora.com/How-can-I-deal-with-missing-values-in-a-predictive-model/answer/Vinay-Prabhu-7) for more details on this) 2) if you don't lose too much of the dataset after doing so.
   - Build another predictive model to predict the missing values - This could be a whole project in itself, so simple techniques are usually used here.
