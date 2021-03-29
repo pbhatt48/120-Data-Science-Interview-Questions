@@ -6,6 +6,8 @@
   - the more predictors you add the higher R^2 becomes.
     - hence use adjusted R^2 which adjusts for the degrees of freedom 
     - or train error metrics
+  - [R square vs adj. R square readings I](https://medium.com/analytics-vidhya/r-squared-vs-adjusted-r-squared-a3ebc565677b)
+  - [R square vs adj. R square readings II](https://www.listendata.com/2014/08/adjusted-r-squared.html)
 #### 3. What is the curse of dimensionality?
   - High dimensionality makes clustering hard, because having lots of dimensions means that everything is "far away" from each other.
   - For example, to cover a fraction of the volume of the data we need to capture a very wide range for each variable as the number of variables increases
