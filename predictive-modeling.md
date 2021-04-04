@@ -70,6 +70,7 @@ That regression is the problem of predicting a continuous quantity output for an
 
 #### 7. What is regularization and where might it be helpful? What is an example of using regularization in a model?
 - Regularization is useful for reducing variance in the model, meaning avoiding overfitting . For example, we can use L1 regularization in Lasso regression to penalize large coefficients.
+- For a set of points, you want to find a line that fits the line but you would also want to generalize the model. As you include more paramenters in model y = mx + c ; mx2 + mx + c you are adding complexity to the model. As you add more complexity to the model it will overfit the model. Regularization is a method to penalize the model complexity.
 
 #### 8. Why might it be preferable to include fewer predictors over many?
 - When we add irrelevant features, it increases model's tendency to overfit because those features introduce more noise. When two variables are correlated, they might be harder to interpret in case of regression, etc.
